@@ -4,6 +4,21 @@
 
 This project uses an Artificial Neural Network (ANN) built from scratch in PyTorch to predict passenger survival on the Titanic dataset.
 
+## Dataset
+
+This project uses the Titanic dataset from Kaggle to predict passenger survival based on demographic and travel information.
+
+## Workflow
+
+Data Cleaning
+→ Encoding
+→ Train-Test Split
+→ Standard Scaling
+→ Tensor Conversion
+→ DataLoader
+→ ANN Training
+→ Evaluation
+
 ## Features
 
 * Data Cleaning
@@ -37,7 +52,7 @@ Activation Functions:
 
 | Metric            | Score  |
 | ----------------- | ------ |
-| Training Accuracy | 86%    |
+| Training Accuracy | 86.8%    |
 | Test Accuracy     | 81.56% |
 
 ## Technologies Used
